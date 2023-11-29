@@ -2,16 +2,22 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
     <title>Связаться с нами - Spirtnoj</title>
+    <!-- Подключение CSS -->
 </head>
 <body>
     <header>
-        <!-- Здесь тот же header, что и на главной странице -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="privacy.html">Политика конфиденциальности</a></li>
+                <li><a href="contact.html">Связаться с нами</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <h2>Связаться с нами</h2>
-        <form>
+        <form action="mailto:loosest_offices_00@icloud.com" method="post" enctype="text/plain">
             <label for="name">Имя:</label><br>
             <input type="text" id="name" name="name"><br>
             <label for="email">Email:</label><br>
@@ -22,7 +28,7 @@
         </form>
     </main>
     <footer>
-        <!-- Футер, аналогичный главной странице -->
+        <p>&copy; 2023 Spirtnoj.</p>
     </footer>
 </body>
 </html>
