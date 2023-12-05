@@ -1,1 +1,1 @@
-# © Spirtnoj, 2023
+# Spirtnoj, 2023
