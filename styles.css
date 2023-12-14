@@ -1,71 +1,74 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
 }
 
 header {
-    background: #2a2a2a;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+  background: #2a2a2a;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
 }
 
 nav {
-    text-align: right;
-    padding-right: 100px;
+  text-align: right;
+  padding-right: 100px;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+  display: inline;
+  margin-right: 10px;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 main {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: #2a2a2a;
-    color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  background: #2a2a2a;
+  color: #fff;
 }
 
 form {
-    width: 300px;
-    margin: 0 auto;
+  width: 300px;
+  margin: 0 auto;
 }
 
-label, input[type="text"], input[type="email"], textarea {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
+label,
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 input[type="submit"] {
-    display: block;
-    width: 100%;
-    background: #333;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+  display: block;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background: #444;
+  background: #444;
 }
