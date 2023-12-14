@@ -72,3 +72,31 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background: #444;
 }
+
+h2 {
+  display: flex; /* Используем flexbox */
+  align-items: center; /* Центрирование элементов по вертикали */
+}
+
+h2 img {
+  margin-right: 20px; /* Добавляем отступ справа от иконки */
+}
+
+.icon-small {
+  width: 64px;
+  height: 64px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-container img {
+  max-width: 100%; /* Изображение будет занимать максимум 100% своего контейнера */
+  max-height: 600px; /* Максимальная высота изображения ограничена */
+  height: auto; /* Высота изменится пропорционально ширине */
+  margin: 10px; /* Отступ вокруг изображения */
+  border-radius: 15px;
+}
