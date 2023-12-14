@@ -1,0 +1,18 @@
+{
+  "en": {
+    "title": "Spirtnoj - Free Alcohol Calculator",
+    "menu_home": "Home",
+    "menu_privacy_policy": "Privacy Policy",
+    "menu_contact_us": "Contact Us",
+    "header_title": "Spirtnoj — Free Alcohol Calculator for iOS and Android",
+    "header_title_contact_us": "Contact Us"
+  },
+  "ru": {
+    "title": "Spirtnoj - Бесплатный Калькулятор Самогонщика",
+    "menu_home": "Главная",
+    "menu_privacy_policy": "Политика Конфиденциальности",
+    "menu_contact_us": "Связаться с Нами",
+    "header_title": "Spirtnoj — Бесплатный Калькулятор Самогонщика для iOS и Android",
+    "header_title_contact_us": "Связатся с нами"
+  }
+}
