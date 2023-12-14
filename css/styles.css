@@ -59,8 +59,8 @@ footer {
 @media (max-width: 768px) {
   .menu-toggle {
     display: block; /* Показываем кнопку переключения на мобильных устройствах */
-    text-align: left; /* Выравниваем кнопку меню по левому краю */
-    padding-left: 1rem; /* Добавляем отступ слева */
+    text-align: right; /* Выравниваем кнопку меню по левому краю */
+    padding-right: 1rem; /* Добавляем отступ слева */
   }
 
   header {
