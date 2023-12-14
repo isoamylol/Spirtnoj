@@ -13,9 +13,19 @@ header {
   text-align: center;
 }
 
+.menu-toggle {
+  display: none; /* Скрываем кнопку переключения на десктопе */
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background: #2a2a2a;
+  font-size: 1.5rem; /* Увеличиваем размер шрифта */
+  line-height: 1.05;
+}
+
 nav {
   text-align: right;
-  padding-right: 10px;
+  padding-right: 40px;
 }
 
 nav ul {
@@ -45,46 +55,57 @@ footer {
   color: #fff;
 }
 
-form {
-  width: 300px;
-  margin: 0 auto;
-}
+/* Стили для мобильной версии */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Показываем кнопку переключения на мобильных устройствах */
+  }
 
-label,
-input[type="text"],
-input[type="email"],
-textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-}
+  nav {
+    padding-right: 0px; /* Убираем сдвиг на мобильных устройствах */
+    text-align: center; /* Центрируем навигацию на мобильных устройствах */
+  }
 
-input[type="submit"] {
-  display: block;
-  width: 100%;
-  background: #333;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-}
+  nav ul {
+    display: none; /* Скрываем текущее меню */
+    flex-direction: column; /* Элементы меню будут в столбец */
+    width: 100%; /* Ширина меню */
+  }
 
-input[type="submit"]:hover {
-  background: #444;
+  nav ul li {
+    display: block; /* Элементы меню в виде блока */
+    text-align: center; /* Текст выравнивается по центру */
+    margin-right: 0px;
+  }
+
+  nav ul li a {
+    display: block; /* Ссылки тоже в виде блока */
+    padding: 10px; /* Паддинг для ссылок */
+  }
+
+  nav.active ul {
+    display: flex; /* Показываем меню, когда оно активно */
+  }
+
+  .image-container img {
+    width: 60%; /* Устанавливаем ширину изображения */
+    height: auto; /* Высота изменится пропорционально ширине */
+  }
 }
 
 h2 {
-  display: flex; /* Используем flexbox */
-  align-items: center; /* Центрирование элементов по вертикали */
+  display: flex;
+  align-items: center;
 }
 
 h2 img {
-  margin-right: 20px; /* Добавляем отступ справа от иконки */
+  margin-right: 20px;
 }
 
 .icon-small {
   width: 64px;
   height: 64px;
+  border-radius: 15px;
 }
 
 .image-container {
@@ -94,9 +115,9 @@ h2 img {
 }
 
 .image-container img {
-  max-width: 100%; /* Изображение будет занимать максимум 100% своего контейнера */
-  max-height: 600px; /* Максимальная высота изображения ограничена */
-  height: auto; /* Высота изменится пропорционально ширине */
-  margin: 10px; /* Отступ вокруг изображения */
+  max-width: 100%;
+  max-height: 600px;
+  height: auto;
+  margin: 10px;
   border-radius: 15px;
 }
