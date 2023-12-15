@@ -121,3 +121,24 @@ h2 img {
   margin: 10px;
   border-radius: 15px;
 }
+
+/* Добавляем стили для темной темы */
+.dark-theme {
+  background: rgb(36, 36, 36);
+  color: #fff;
+}
+
+.dark-theme header,
+.dark-theme footer {
+  background: rgb(20, 20, 20);
+  color: #eee;
+}
+
+.dark-theme nav ul li a {
+  color: #fff;
+}
+
+.dark-theme .menu-toggle {
+  background: rgb(20, 20, 20);
+  color: #fff;
+}
