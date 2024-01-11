@@ -4,6 +4,8 @@ body {
   margin: 0;
   padding: 0;
   background: #f4f4f4;
+  padding-top: env(safe-area-inset-top); /* Добавляем отступ для безопасной зоны сверху */
+  padding-bottom: env(safe-area-inset-bottom); /* Добавляем отступ для безопасной зоны снизу */
 }
 
 header {
@@ -126,6 +128,7 @@ h2 img {
 .dark-theme {
   background: rgb(36, 36, 36);
   color: #fff;
+  background-color: rgb(36, 36, 36); /* Цвет для тёмной темы */
 }
 
 .dark-theme header,
